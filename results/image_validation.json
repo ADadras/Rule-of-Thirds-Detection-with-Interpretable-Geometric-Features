@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "scope": "New image features on the recorded evaluation rows; classifiers unchanged",
+  "expected_images": 2547,
+  "processed_images": 2547,
+  "complete": true,
+  "geometry_mode": "historical",
+  "comparison_tolerance": {
+    "rtol": 1e-05,
+    "atol": 1e-07
+  },
+  "cohorts": {
+    "rotds": {
+      "expected_images": 728,
+      "processed_images": 728,
+      "status_counts": {
+        "PASS": 728
+      },
+      "complete_features": 728,
+      "all_22_features_exact": 0,
+      "all_22_features_within_tolerance": 85,
+      "field_counts_outside_tolerance": {
+        "line_dist_h": 21,
+        "bbox_saliency_sum": 37,
+        "bbox_confidence": 588,
+        "distance_mask_to_nearest_vertical_line": 151,
+        "distance_mask_to_nearest_horizontal_line": 166,
+        "distance_mask_to_nearest_quadrant": 153,
+        "average_pointwise_horizontal_distance": 162,
+        "bbox_y": 21,
+        "saliency_x": 32,
+        "saliency_y": 29,
+        "average_pointwise_vertical_distance": 23,
+        "line_dist_v": 16,
+        "horizontal_line_switches": 1,
+        "bbox_x": 16,
+        "vertical_line_switches": 1,
+        "line_switch_v": 1
+      },
+      "maximum_absolute_difference": {
+        "line_dist_h": 0.0009451795841209504,
+        "line_dist_v": 0.001091703056768506,
+        "line_switch_h": 0.0,
+        "line_switch_v": 1.0,
+        "bbox_saliency_sum": 3939.6875,
+        "bbox_confidence": 0.0021675378084183294,
+        "bbox_contains_peak": 0.0,
+        "distance_mask_to_nearest_vertical_line": 0.03693197117091078,
+        "distance_mask_to_nearest_horizontal_line": 0.010041664110389079,
+        "distance_mask_to_nearest_quadrant": 0.03676389372163505,
+        "distance_saliency_to_nearest_vertical_line": 9.71445146547012e-17,
+        "distance_saliency_to_nearest_horizontal_line": 9.71445146547012e-17,
+        "distance_saliency_to_nearest_quadrant": 9.71445146547012e-17,
+        "average_pointwise_vertical_distance": 0.005884637333587461,
+        "average_pointwise_horizontal_distance": 0.0243386015372715,
+        "vertical_line_switches": 3.0,
+        "horizontal_line_switches": 6.0,
+        "objectness": 0.0,
+        "bbox_x": 0.0010917030567686448,
+        "bbox_y": 0.000945179584120992,
+        "saliency_x": 0.0012419324990745606,
+        "saliency_y": 0.0006518122826325579
+      },
+      "classifier_predictions_matching_archived_features": 727,
+      "classifier_predictions_differing": 1,
+      "metrics_on_recomputed_complete_features": {
+        "accuracy": 0.7445054945054945,
+        "f1": 0.7486486486486487,
+        "precision": 0.7426273458445041,
+        "recall": 0.7547683923705722,
+        "mcc": 0.48897329874626033,
+        "confusion_matrix": [
+          [
+            265,
+            96
+          ],
+          [
+            90,
+            277
+          ]
+        ],
+        "samples": 728
+      },
+      "metrics_on_archived_features_same_rows": {
+        "accuracy": 0.7431318681318682,
+        "f1": 0.747638326585695,
+        "precision": 0.7406417112299465,
+        "recall": 0.7547683923705722,
+        "mcc": 0.4862373485674248,
+        "confusion_matrix": [
+          [
+            264,
+            97
+          ],
+          [
+            90,
+            277
+          ]
+        ],
+        "samples": 728
+      }
+    },
+    "kupcp": {
+      "expected_images": 704,
+      "processed_images": 704,
+      "status_counts": {
+        "PASS": 704
+      },
+      "complete_features": 704,
+      "all_22_features_exact": 0,
+      "all_22_features_within_tolerance": 216,
+      "field_counts_outside_tolerance": {
+        "bbox_confidence": 428,
+        "distance_mask_to_nearest_vertical_line": 73,
+        "distance_mask_to_nearest_quadrant": 65,
+        "distance_mask_to_nearest_horizontal_line": 81,
+        "average_pointwise_horizontal_distance": 74,
+        "line_dist_h": 4,
+        "bbox_saliency_sum": 8,
+        "bbox_y": 4,
+        "saliency_y": 8,
+        "line_dist_v": 4,
+        "average_pointwise_vertical_distance": 5,
+        "bbox_x": 4,
+        "saliency_x": 7
+      },
+      "maximum_absolute_difference": {
+        "line_dist_h": 0.0006944444444444524,
+        "line_dist_v": 0.000488281250000085,
+        "line_switch_h": 0.0,
+        "line_switch_v": 0.0,
+        "bbox_saliency_sum": 441.5625,
+        "bbox_confidence": 0.0024052858352661133,
+        "bbox_contains_peak": 0.0,
+        "distance_mask_to_nearest_vertical_line": 0.00772154708779102,
+        "distance_mask_to_nearest_horizontal_line": 0.005134697503898805,
+        "distance_mask_to_nearest_quadrant": 0.012856244591689936,
+        "distance_saliency_to_nearest_vertical_line": 9.71445146547012e-17,
+        "distance_saliency_to_nearest_horizontal_line": 9.71445146547012e-17,
+        "distance_saliency_to_nearest_quadrant": 9.71445146547012e-17,
+        "average_pointwise_vertical_distance": 0.00037288727574319447,
+        "average_pointwise_horizontal_distance": 0.01703737899390076,
+        "vertical_line_switches": 0.0,
+        "horizontal_line_switches": 0.0,
+        "objectness": 0.0,
+        "bbox_x": 0.00048828125,
+        "bbox_y": 0.000694444444444442,
+        "saliency_x": 0.0005897956823869843,
+        "saliency_y": 0.000688101822216014
+      },
+      "classifier_predictions_matching_archived_features": 704,
+      "classifier_predictions_differing": 0,
+      "metrics_on_recomputed_complete_features": {
+        "accuracy": 0.9318181818181818,
+        "f1": 0.8344827586206897,
+        "precision": 0.983739837398374,
+        "recall": 0.7245508982035929,
+        "mcc": 0.8074869325912013,
+        "confusion_matrix": [
+          [
+            535,
+            2
+          ],
+          [
+            46,
+            121
+          ]
+        ],
+        "samples": 704
+      },
+      "metrics_on_archived_features_same_rows": {
+        "accuracy": 0.9318181818181818,
+        "f1": 0.8344827586206897,
+        "precision": 0.983739837398374,
+        "recall": 0.7245508982035929,
+        "mcc": 0.8074869325912013,
+        "confusion_matrix": [
+          [
+            535,
+            2
+          ],
+          [
+            46,
+            121
+          ]
+        ],
+        "samples": 704
+      }
+    },
+    "avt": {
+      "expected_images": 1115,
+      "processed_images": 1115,
+      "status_counts": {
+        "PASS": 1115
+      },
+      "complete_features": 1115,
+      "all_22_features_exact": 0,
+      "all_22_features_within_tolerance": 135,
+      "field_counts_outside_tolerance": {
+        "distance_mask_to_nearest_vertical_line": 339,
+        "distance_mask_to_nearest_horizontal_line": 359,
+        "bbox_confidence": 796,
+        "line_dist_h": 55,
+        "bbox_saliency_sum": 111,
+        "distance_mask_to_nearest_quadrant": 290,
+        "average_pointwise_horizontal_distance": 381,
+        "bbox_y": 55,
+        "saliency_x": 79,
+        "saliency_y": 72,
+        "line_dist_v": 61,
+        "bbox_x": 61,
+        "average_pointwise_vertical_distance": 72,
+        "horizontal_line_switches": 7
+      },
+      "maximum_absolute_difference": {
+        "line_dist_h": 0.0012431626056688613,
+        "line_dist_v": 0.000954719039825358,
+        "line_switch_h": 0.0,
+        "line_switch_v": 0.0,
+        "bbox_saliency_sum": 17350.0,
+        "bbox_confidence": 0.0018791854381561834,
+        "bbox_contains_peak": 0.0,
+        "distance_mask_to_nearest_vertical_line": 0.023026606999469013,
+        "distance_mask_to_nearest_horizontal_line": 0.023065288513977183,
+        "distance_mask_to_nearest_quadrant": 0.027483881248390657,
+        "distance_saliency_to_nearest_vertical_line": 9.71445146547012e-17,
+        "distance_saliency_to_nearest_horizontal_line": 9.71445146547012e-17,
+        "distance_saliency_to_nearest_quadrant": 9.71445146547012e-17,
+        "average_pointwise_vertical_distance": 0.01783460563173179,
+        "average_pointwise_horizontal_distance": 0.03258789515048449,
+        "vertical_line_switches": 0.0,
+        "horizontal_line_switches": 18.0,
+        "objectness": 0.0,
+        "bbox_x": 0.000954719039825469,
+        "bbox_y": 0.0012431626056688128,
+        "saliency_x": 0.00046561670836664515,
+        "saliency_y": 0.0007097577497106045
+      },
+      "classifier_predictions_matching_archived_features": 1114,
+      "classifier_predictions_differing": 1,
+      "metrics_on_recomputed_complete_features": {
+        "accuracy": 0.7569506726457399,
+        "f1": 0.34382566585956414,
+        "precision": 0.3397129186602871,
+        "recall": 0.3480392156862745,
+        "mcc": 0.19472704311883232,
+        "confusion_matrix": [
+          [
+            773,
+            138
+          ],
+          [
+            133,
+            71
+          ]
+        ],
+        "samples": 1115
+      },
+      "metrics_on_archived_features_same_rows": {
+        "accuracy": 0.7560538116591928,
+        "f1": 0.33980582524271846,
+        "precision": 0.33653846153846156,
+        "recall": 0.3431372549019608,
+        "mcc": 0.1902216508321056,
+        "confusion_matrix": [
+          [
+            773,
+            138
+          ],
+          [
+            134,
+            70
+          ]
+        ],
+        "samples": 1115
+      }
+    }
+  },
+  "pipeline_status": "PASS",
+  "feature_parity_status": "DIFFERS",
+  "prediction_parity_status": "DIFFERS",
+  "runs": [
+    {
+      "status": "PASS",
+      "geometry_mode": "historical",
+      "device": "cuda:0",
+      "cpu_threads": 2,
+      "rows": 1274,
+      "manifest_sha256": "6988a5f4fc337943238a345528e7fa99b2e4b183b6876466521f44f7532f04bd",
+      "python": "3.12.3",
+      "dependencies": {
+        "torch": "2.5.1",
+        "torchvision": "0.20.1",
+        "ultralytics": "8.3.179",
+        "numpy": "2.2.1",
+        "opencv-python": "4.11.0.86",
+        "segment-anything": "1.0"
+      },
+      "checkpoint_sha256": {
+        "sam": "a7bf3b02f3ebf1267aba913ff637d9a2d5c33d3173bb679e46d9f338c26f262e",
+        "yolo": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+        "resnet": "0676ba61b6795bbe1773cffd859882e5e297624d384b6993f7c9e683e722fb8a"
+      },
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "errors": 0,
+      "incomplete_features": 0,
+      "elapsed_seconds": 2372.583544254303,
+      "peak_cpu_rss_kib": 5657168,
+      "output_sha256": "db83d69b0f11b96cb6e71ee42801c2bdf7edb5896460d157fa9ff64ea466736e",
+      "peak_gpu_allocated_bytes": 6081697280
+    },
+    {
+      "status": "PASS",
+      "geometry_mode": "historical",
+      "device": "cuda:0",
+      "cpu_threads": 2,
+      "rows": 1273,
+      "manifest_sha256": "25cdec33c77713be7472326e0b8bc2fd7fe6eca38370f2f3c6854141237bd48b",
+      "python": "3.12.3",
+      "dependencies": {
+        "torch": "2.5.1",
+        "torchvision": "0.20.1",
+        "ultralytics": "8.3.179",
+        "numpy": "2.2.1",
+        "opencv-python": "4.11.0.86",
+        "segment-anything": "1.0"
+      },
+      "checkpoint_sha256": {
+        "sam": "a7bf3b02f3ebf1267aba913ff637d9a2d5c33d3173bb679e46d9f338c26f262e",
+        "yolo": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+        "resnet": "0676ba61b6795bbe1773cffd859882e5e297624d384b6993f7c9e683e722fb8a"
+      },
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "errors": 0,
+      "incomplete_features": 0,
+      "elapsed_seconds": 1815.167798280716,
+      "peak_cpu_rss_kib": 5657184,
+      "output_sha256": "2a8581eb9678481f4784246eee3e4e0a5d5b776bd42509f9a672b2bc6e4865b1",
+      "peak_gpu_allocated_bytes": 6081669632
+    }
+  ],
+  "hardware": {
+    "gpus": 2,
+    "gpu_model": "NVIDIA GeForce RTX 3090",
+    "memory_mib_each": 24576,
+    "driver_version": "610.43.02",
+    "torch_version": "2.5.1+cu124",
+    "cuda_version": "12.4",
+    "cudnn_version": 90100,
+    "cpu_threads_per_process": 2,
+    "physical_gpu_per_part": {
+      "0": 0,
+      "1": 1
+    },
+    "source_snapshot": "rot_runtime; numerical pipeline files unchanged in final source",
+    "other_projects_modified": false
+  },
+  "independent_comparison_using_public_script": "PASS",
+  "image_catalog_preparation_validation": {
+    "status": "PASS",
+    "images_verified": 2547,
+    "part_rows": [
+      1274,
+      1273
+    ],
+    "identities_labels_paths_and_order_match_original_runs": true
+  },
+  "fresh_gpu_environment_validation": {
+    "status": "PASS",
+    "legacy_packages_used": false,
+    "samples": [
+      {
+        "cohort": "rotds",
+        "source_row": 1534,
+        "all_features_exact": true,
+        "all_features_within_tolerance": true
+      },
+      {
+        "cohort": "kupcp",
+        "source_row": 3187,
+        "all_features_exact": true,
+        "all_features_within_tolerance": true
+      },
+      {
+        "cohort": "avt",
+        "source_row": 0,
+        "all_features_exact": true,
+        "all_features_within_tolerance": true
+      }
+    ]
+  },
+  "evaluated_numerical_source_sha256": {
+    "src/rot_features/_historical_geometry.py": "0beaa305bf40ddd8e8ea648f220b87eeec1fe66ec03305221c576478e124beaf",
+    "src/rot_features/_historical_inference.py": "f665d6f9bfa2816f40121c2f2a541611f22050514f537aa12463f31dcf488c58",
+    "src/rot_features/geometry.py": "aa889bfd51bacaf7f3db2019e27fb95eec158a2b512ba359b379987e93161181",
+    "src/rot_features/cli.py": "7fc282f1143905ab36bad2bea1decf3d3e61046a77de5722449761aa55176771",
+    "src/rot_features/inference.py": "bb1b9fc1d0155f2b169994ce9e7df831f93cb6bdd49278907f73106b1d1fecb9",
+    "src/rot_features/frozen.py": "c7a1a766e707364d476612561f6ceddcc62f00a366c503eb9c28dffa75c1b6c6",
+    "src/rot_features/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "src/rot_features/experiments.py": "e26d168408dca4f58361130b0310bf12f16253738f14bb71e77cfe36ef193dc1",
+    "src/rot_features/__init__.py": "182b052a99a8185a58824a51068999e0cabb7100bd345a30a0ef42eb41e57857"
+  }
+}

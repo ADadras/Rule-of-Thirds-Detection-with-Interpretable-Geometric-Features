@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "date": "2026-10-30",
+  "python_cpu": "3.12.14",
+  "cpu_installation": "Built wheel installed in a fresh virtual environment; tests invoked outside the checkout with Python isolated mode",
+  "unit_tests_passed": 12,
+  "dependency_check": "PASS",
+  "replayed_evaluation_predictions": 2547,
+  "selected_classifier_refits": "Both original test prediction arrays exactly reproduced",
+  "rotds_validation_folds": "All five original scores reproduced",
+  "fresh_gpu_environment": {
+    "python": "3.12.3",
+    "legacy_packages_used": false,
+    "dependency_versions": "requirements-inference-lock.txt",
+    "archived_prediction_replay": "PASS",
+    "image_samples": 3,
+    "all_22_features_exactly_match_extraction_runtime": true,
+    "datasets": [
+      "rotds",
+      "kupcp",
+      "avt"
+    ]
+  },
+  "image_feature_parity_with_archived_study": "DIFFERS; see results/image_validation.json",
+  "image_catalog_preparation": "PASS: all 2,547 image hashes and the original manifest order were verified.",
+  "checkpoint_helper": "PASS: all three checkpoint hashes verified; YOLO downloaded from its upstream release.",
+  "image_extraction_complete_samples": 2547,
+  "image_predictions_matching_archived_features": 2545
+}

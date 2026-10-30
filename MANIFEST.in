@@ -1,0 +1,7 @@
+include LICENSE CITATION.cff CHANGELOG.md requirements-lock.txt requirements-inference-lock.txt
+recursive-include src/rot_features/assets *.json *.csv.gz
+recursive-include data *.json *.md *.csv
+recursive-include docs *.md *.json *.png
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include results *.json *.csv *.csv.gz

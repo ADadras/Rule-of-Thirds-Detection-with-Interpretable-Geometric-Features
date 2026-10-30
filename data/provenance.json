@@ -1,0 +1,33 @@
+{
+  "paper_doi": "10.1145/3746273.3760202",
+  "original_feature_script_sha256": "4c23da177051b194a134e40235c47472b677a5f11e5696d722105f42eb845c5f",
+  "original_evaluation_notebook_sha256": "7f067f678c079608aae84dfc8563aaf5420647b54be40348ac68f82091fde397",
+  "recovered_function_groups": {
+    "_historical_geometry.py": [
+      "draw_mask_center_vertical_line",
+      "draw_mask_center_line",
+      "rule_of_thirds",
+      "find_centroid",
+      "find_max_saliency_point",
+      "get_pointwise_distance_to_next_line",
+      "get_distance_to_nearest_line",
+      "get_distance_to_nearest_quadrant",
+      "track_line_switching",
+      "compute_rot_features"
+    ],
+    "_historical_inference.py": [
+      "preprocess",
+      "get_gradcam",
+      "segment_foreground_in_bbox_sam",
+      "get_best_saliency_bbox"
+    ]
+  },
+  "source_description": "Functions recovered from the author\u2019s original experiment files; model weights and photographs are not copied into this repository.",
+  "evaluation_image_catalog": {
+    "path": "data/evaluation_images.csv",
+    "rows": 2547,
+    "sha256": "3429ca96117d43706368134238aa94539a674c322974dbd9800c4a450c9caa68",
+    "contents": "Dataset-relative image paths, labels, archived row identifiers, and SHA-256; no image files",
+    "serialization": "UTF-8 CSV with LF line endings"
+  }
+}

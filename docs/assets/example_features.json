@@ -1,0 +1,28 @@
+{
+  "image": "The Great Wave off Kanagawa, Hokusai",
+  "geometry_mode": "historical",
+  "features": {
+    "line_dist_h": 0.11639492753623189,
+    "line_dist_v": 0.16541666666666666,
+    "line_switch_h": true,
+    "line_switch_v": true,
+    "distance_mask_to_nearest_vertical_line": 0.14659508709492697,
+    "distance_mask_to_nearest_horizontal_line": 0.035536201276059075,
+    "distance_mask_to_nearest_quadrant": 0.18213128837098605,
+    "distance_saliency_to_nearest_vertical_line": 0.333125,
+    "distance_saliency_to_nearest_horizontal_line": 0.16576086956521738,
+    "distance_saliency_to_nearest_quadrant": 0.4988858695652174,
+    "average_pointwise_vertical_distance": 0.1374693010075567,
+    "average_pointwise_horizontal_distance": 0.09211357752909761,
+    "vertical_line_switches": 3,
+    "horizontal_line_switches": 3,
+    "bbox_saliency_sum": 565772.8125,
+    "bbox_confidence": 0.25446617603302,
+    "bbox_contains_peak": false,
+    "objectness": true,
+    "bbox_x": 0.49875,
+    "bbox_y": 0.5502717391304348,
+    "saliency_x": 0.4136403784475331,
+    "saliency_y": 0.6174946347934983
+  }
+}

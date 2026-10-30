@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rot-geometric-features"
+version = "0.1.0"
+description = "Rule-of-thirds features and reproducible classification experiments"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+authors = [{name = "Armin Dadras"}, {name = "Tingyu Lin"}, {name = "Robert Sablatnig"}, {name = "Markus Seidl"}]
+dependencies = ["numpy>=2,<3", "pandas>=2.2,<3", "scikit-learn>=1.6,<1.7", "Pillow>=10"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+figures = ["matplotlib>=3.10,<4"]
+inference = ["torch==2.5.1", "torchvision==0.20.1", "ultralytics==8.3.179", "opencv-python==4.11.0.86", "segment-anything @ git+https://github.com/facebookresearch/segment-anything.git@dca509fe793f601edb92606367a655c15ac00fdf"]
+
+[project.scripts]
+rot-reproduce = "rot_features.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+rot_features = ["assets/*.json", "assets/models/*.json", "assets/features/*.csv.gz"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,20 @@
+{
+  "sam": {
+    "filename": "sam_vit_h_4b8939.pth",
+    "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth",
+    "bytes": 2564550879,
+    "sha256": "a7bf3b02f3ebf1267aba913ff637d9a2d5c33d3173bb679e46d9f338c26f262e"
+  },
+  "yolo": {
+    "filename": "yolo11s.pt",
+    "url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11s.pt",
+    "bytes": 19313732,
+    "sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5"
+  },
+  "resnet": {
+    "filename": "resnet50-0676ba61.pth",
+    "url": "https://download.pytorch.org/models/resnet50-0676ba61.pth",
+    "bytes": 102530333,
+    "sha256": "0676ba61b6795bbe1773cffd859882e5e297624d384b6993f7c9e683e722fb8a"
+  }
+}

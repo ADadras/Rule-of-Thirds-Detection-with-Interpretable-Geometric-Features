@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this implementation or its features, please cite the paper."
+title: "Rule-of-Thirds Detection with Interpretable Geometric Features"
+type: software
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Dadras
+    given-names: Armin
+  - family-names: Lin
+    given-names: Tingyu
+  - family-names: Sablatnig
+    given-names: Robert
+  - family-names: Seidl
+    given-names: Markus
+repository-code: https://github.com/ADadras/Rule-of-Thirds-Detection-with-Interpretable-Geometric-Features
+preferred-citation:
+  type: conference-paper
+  title: "Rule-of-Thirds Detection with Interpretable Geometric Features"
+  authors:
+    - family-names: Dadras
+      given-names: Armin
+    - family-names: Lin
+      given-names: Tingyu
+    - family-names: Sablatnig
+      given-names: Robert
+    - family-names: Seidl
+      given-names: Markus
+  year: 2025
+  collection-title: "Proceedings of the 7th International Workshop on analySis, Understanding and proMotion of heritAge Contents"
+  conference:
+    name: "SUMAC '25"
+  start: "69"
+  end: "78"
+  doi: 10.1145/3746273.3760202

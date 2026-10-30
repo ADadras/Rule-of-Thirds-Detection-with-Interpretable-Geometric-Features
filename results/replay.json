@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "evaluation": "Replay of the original fitted models on their recorded test rows",
+  "verified_artifacts": [
+    "features/rotds.csv.gz",
+    "features/kupcp.csv.gz",
+    "features/avt.csv.gz",
+    "models/rotds.json",
+    "models/kupcp.json"
+  ],
+  "datasets": {
+    "rotds": {
+      "accuracy": 0.7431318681318682,
+      "f1": 0.747638326585695,
+      "precision": 0.7406417112299465,
+      "recall": 0.7547683923705722,
+      "mcc": 0.4862373485674248,
+      "confusion_matrix": [
+        [
+          264,
+          97
+        ],
+        [
+          90,
+          277
+        ]
+      ],
+      "samples": 728,
+      "prediction_sha256": "3a2c0d132cc3aff46c5da1a45861422eed5fc2f49b5fcc11c9dfe46d8c0feaed",
+      "recorded_cv_f1_folds": [
+        0.7419898819561551,
+        0.7650085763293311,
+        0.7566666666666667,
+        0.7450331125827815,
+        0.7105719237435009
+      ],
+      "recorded_cv_f1_mean": 0.7438540322556871
+    },
+    "kupcp": {
+      "accuracy": 0.9318181818181818,
+      "f1": 0.8344827586206897,
+      "precision": 0.983739837398374,
+      "recall": 0.7245508982035929,
+      "mcc": 0.8074869325912013,
+      "confusion_matrix": [
+        [
+          535,
+          2
+        ],
+        [
+          46,
+          121
+        ]
+      ],
+      "samples": 704,
+      "prediction_sha256": "4d2d454418e173bc01079f3b9c962e1afc13946a92b241e2ed93157449f6cf9f",
+      "recorded_cv_f1_folds": [
+        0.8073394495412844,
+        0.7870370370370371,
+        0.7464114832535885,
+        0.7403846153846154,
+        0.7326732673267327
+      ],
+      "recorded_cv_f1_mean": 0.7627691705086516
+    },
+    "avt": {
+      "accuracy": 0.7560538116591928,
+      "f1": 0.33980582524271846,
+      "precision": 0.33653846153846156,
+      "recall": 0.3431372549019608,
+      "mcc": 0.1902216508321056,
+      "confusion_matrix": [
+        [
+          773,
+          138
+        ],
+        [
+          134,
+          70
+        ]
+      ],
+      "samples": 1115,
+      "prediction_sha256": "23dec956a104f517d0db40cdf6e55ad2435363fa2bd5b591832adb6bfc773299",
+      "model_trained_on": "rotds"
+    }
+  },
+  "dependencies": {
+    "numpy": "2.3.1",
+    "pandas": "2.3.1",
+    "scikit-learn": "1.6.1"
+  }
+}

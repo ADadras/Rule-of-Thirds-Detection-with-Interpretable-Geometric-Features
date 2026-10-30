@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "source_tables_sha256": "8b4c1f35075bd4647148a30e98f626fa6d8f7d0d9e590b73501bf48364f63f8f",
+  "source_models_sha256": "02fadaab65c91270f4dc0cd846dc7b9359a08cb0c1f4d6c005fff9af6f7c7c43",
+  "source_description": "Author-provided original feature tables and fitted model states",
+  "geometry_mode": "historical",
+  "datasets": {
+    "rotds": {
+      "path": "features/rotds.csv.gz",
+      "sha256": "ed58d83493386c4c114ae359c0b9010fcf37a17000b24ba40db603af6f632c5c",
+      "rows": 3638,
+      "feature_names": [
+        "line_dist_h",
+        "line_dist_v",
+        "line_switch_h",
+        "line_switch_v",
+        "bbox_saliency_sum",
+        "bbox_confidence",
+        "bbox_contains_peak",
+        "distance_mask_to_nearest_vertical_line",
+        "distance_mask_to_nearest_horizontal_line",
+        "distance_mask_to_nearest_quadrant",
+        "distance_saliency_to_nearest_vertical_line",
+        "distance_saliency_to_nearest_horizontal_line",
+        "distance_saliency_to_nearest_quadrant",
+        "average_pointwise_vertical_distance",
+        "average_pointwise_horizontal_distance",
+        "vertical_line_switches",
+        "horizontal_line_switches",
+        "objectness",
+        "bbox_x",
+        "bbox_y",
+        "saliency_x",
+        "saliency_y"
+      ],
+      "rows_with_missing_values": 0
+    },
+    "kupcp": {
+      "path": "features/kupcp.csv.gz",
+      "sha256": "a0c08219986218f17ec5e1e4cf8d00b505bd98ccbeb0f73a65ed5abffb7f440e",
+      "rows": 3516,
+      "feature_names": [
+        "line_dist_h",
+        "line_dist_v",
+        "line_switch_h",
+        "line_switch_v",
+        "bbox_saliency_sum",
+        "bbox_confidence",
+        "bbox_contains_peak",
+        "distance_mask_to_nearest_vertical_line",
+        "distance_mask_to_nearest_horizontal_line",
+        "distance_mask_to_nearest_quadrant",
+        "distance_saliency_to_nearest_vertical_line",
+        "distance_saliency_to_nearest_horizontal_line",
+        "distance_saliency_to_nearest_quadrant",
+        "average_pointwise_vertical_distance",
+        "average_pointwise_horizontal_distance",
+        "vertical_line_switches",
+        "horizontal_line_switches",
+        "objectness",
+        "bbox_x",
+        "bbox_y",
+        "saliency_x",
+        "saliency_y"
+      ],
+      "rows_with_missing_values": 0
+    },
+    "avt": {
+      "path": "features/avt.csv.gz",
+      "sha256": "4f1df8d6b6fcf2f40ac92a7ccfc16df811ee3a9fb8d2e79e7bbdcca7a7c50fdc",
+      "rows": 1115,
+      "feature_names": [
+        "line_dist_h",
+        "line_dist_v",
+        "line_switch_h",
+        "line_switch_v",
+        "bbox_saliency_sum",
+        "bbox_confidence",
+        "bbox_contains_peak",
+        "distance_mask_to_nearest_vertical_line",
+        "distance_mask_to_nearest_horizontal_line",
+        "distance_mask_to_nearest_quadrant",
+        "distance_saliency_to_nearest_vertical_line",
+        "distance_saliency_to_nearest_horizontal_line",
+        "distance_saliency_to_nearest_quadrant",
+        "average_pointwise_vertical_distance",
+        "average_pointwise_horizontal_distance",
+        "vertical_line_switches",
+        "horizontal_line_switches",
+        "objectness",
+        "bbox_x",
+        "bbox_y",
+        "saliency_x",
+        "saliency_y"
+      ],
+      "rows_with_missing_values": 0
+    }
+  },
+  "models": {
+    "rotds": {
+      "path": "models/rotds.json",
+      "sha256": "96e84ec4d39d19f084653eb53ba18178ba890c1a2a15599d7dcddb6f2ab3f68f",
+      "held_out_metrics": {
+        "accuracy": 0.7431318681318682,
+        "f1": 0.747638326585695
+      },
+      "test_rows": 728
+    },
+    "kupcp": {
+      "path": "models/kupcp.json",
+      "sha256": "3b04129403c1ced0383a9f951258ad067687bb9c4b393f08025070882bc5155a",
+      "held_out_metrics": {
+        "accuracy": 0.9318181818181818,
+        "f1": 0.8344827586206897
+      },
+      "test_rows": 704
+    }
+  }
+}
